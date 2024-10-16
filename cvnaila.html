@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Naila Ayuni Putri Ak</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #082640;
+        }
+        .container {
+            width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background-color: #0e0530;
+            color: white;
+            padding: 20px;
+            align-items: center;
+            text-align: center;
+            font-family: Times, sans-serif;
+        }
+        .header img {
+            width: 150px;
+            margin-right: 15px;
+            text-align: right;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+            text-align: center;
+        }
+        .bio-section, .profile-section, .education-section, .work-experience-section, .portfolio-section, .skills-section, .preferences-section {
+            margin-bottom: 5px;
+            max-width: 500px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+        }
+        .section-title {
+            font-size: 18px;
+            color: #104778;
+            border-bottom: 2px solid #770185;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+
+        }
+        .profile-section p {
+            line-height: 1.6;
+            text-align: justify;
+        }
+        .sidebar {
+            width: 35%;
+            float: left;
+        }
+        .main-content {
+            width: 60%;
+            float: right;
+        }
+        .clear {
+            clear: both;
+        }
+        .bio-section ul, .skills-section ul, .preferences-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .bio-section li {
+            margin: 5px 0;
+        }
+        .skills-section ul li, .preferences-section ul li {
+            margin: 8px 0;
+        }
+        .contact-icons img {
+            width: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+        .link-list a {
+            color: #104778;
+            text-decoration: none;
+        }
+        .link-list a:hover {
+            text-decoration: underline;
+        }
+        .skills-section {
+            max-width: 450px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+        }
+        .skill {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .skill span {
+            font-size: 16px;
+            color: #555;
+        }
+        .dots {
+            display: flex;
+        }
+        .dots div {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-left: 4px;
+        }
+        .filled {
+            background-color: #002147; /* Navy color */
+        }
+        .empty {
+            background-color: #ccc; /* Light grey for empty dots */
+        }
+        footer {
+            color: #f5f5f5;
+            text-align: center;
+            font-size: 12px; 
+            padding: 10px;
+            margin-top: auto;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <img src="foto.jpeg" alt="Profile Picture">
+        <div>
+            <h1>NAILA AYUNI PUTRI AK</h1>
+            <p>Mahasiswi Pendidikan Teknologi Informasi Angkatan 2023</p>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <div class="bio-section">
+            <h3 class="section-title">Informasi Kontak</h3>
+            <ul>
+                <li><strong>E-mail:</strong> nailaayuniputri16@gmail.com</li>
+                <li><strong>Github:</strong> @nailaputri16</li>
+                <li><strong>LinkedIn:</strong> Naila Ayuni Putri</li>
+                <li><strong>Instagram:</strong> @naila_ayuni16</li>
+                <li><strong>YouTube:</strong> @nailaayuniputri5866</li>
+                <li><strong>Kewarganegaraan:</strong> Indonesia</li>
+            </ul>
+        </div>
+
+        <div class="skills-section">
+            <h3 class="section-title">Kemampuan Bidang IT</h3>
+            <div class="skill" data-rating="8">
+                <span>Problem-solving</span>
+            </div>
+            <div class="skill" data-rating="8">
+                <span>C++</span>
+            </div>
+            <div class="skill" data-rating="9">
+                <span>HTML</span>
+            </div>
+            <div class="skill" data-rating="8">
+                <span>JavaScript</span>
+            </div>
+            <div class="skill" data-rating="8">
+                <span>Software Installation</span>
+            </div>
+            <div class="skill" data-rating="8">
+                <span>CSS</span>
+            </div>
+        </div>
+
+        <div class="preferences-section">
+            <h3 class="section-title">Kemampuan Bahasa</h3>
+            <ul>
+                <li>Bahasa Indonesia <div class="stars"> ★★★★★ </div></li>
+                <li>Bahasa Inggris <div class="stars"> ★★★★☆ </div></li>
+                <li>Bahasa Korea <div class="stars"> ★★☆☆☆ </div></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="profile-section">
+            <h3 class="section-title">Deskripsi Tentang Saya</h3>
+            <p>
+                Saya adalah seorang mahasiswi aktif semester 3 Program Studi Pendidikan Teknologi Informasi. Saya tertarik dengan teknologi, terutama bagaimana teknologi dapat digunakan untuk mempermudah dalam proses belajar mengajar. Saat ini, saya sedang memperdalam pemahaman saya dalam pemrograman website, pengembangan perangkat lunak, serta penerapan teknologi dalam dunia pendidikan.
+            </p>
+        </div>
+
+        <div class="education-section">
+            <h3 class="section-title">Riwayat Pendidikan</h3>
+            <p><strong>SMA NEGERI 13 BANDAR LAMPUNG</strong> | 2020 - 2023</p>
+            <p><strong>SMP NEGERI 22 BANDAR LAMPUNG</strong> | 2017 - 2020</p>
+            <p><strong>SD NEGERI 3 LABUHAN RATU</strong> | 2011 - 2017</p>
+        </div>
+
+        <div class="work-experience-section">
+            <h3 class="section-title">Pengalaman Organisasi</h3>
+            <p><strong>Formatif FKIP Universitas Lampung</strong> | 2023 - Sekarang</p>
+            <p><strong>PMR WiRA SMAN 13 Bandarlampung</strong> | 2020 - 2023</p>
+            <p><strong>Pramuka SMAN 13 Bandarlampung</strong> | 2020 - 2021</p>
+            <p><strong>English Club Galas Bandarlampung</strong> | 2020 - 2021</p>
+        </div>
+
+        <div class="portfolio-section">
+            <h3 class="section-title">Hobi</h3>
+            <p><strong>Membaca Buku</strong> </p>
+            <p><strong>Mendengarkan Musik</strong> </p>
+            <p><strong>Menonton Film/Drama</strong></p>
+        </div>
+    </div>
+    
+    <div class="clear"></div>
+</div>
+
+<footer>
+    <p>@Copyright 2024 Naila Ayuni Putri Ak. All Rights Reserved.</p>
+</footer>
+
+<script>
+document.querySelectorAll('.skill').forEach(skill => {
+    const rating = skill.getAttribute('data-rating');
+    let dots = '';
+    for (let i = 1; i <= 10; i++) {
+        dots += `<div class="${i <= rating ? 'filled' : 'empty'}"></div>`;
+    }
+    skill.innerHTML += `<div class="dots">${dots}</div>`;
+});
+</script>
+</body>
+</html>
